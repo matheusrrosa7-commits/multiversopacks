@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiverso Packs | Scenepacks de Personagens</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-atom"></i>
+            Multiverso<span class="highlight">Packs</span>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="input-busca" placeholder="Zoro, Stiles, Eleven...">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="welcome-box">
+            <h1>Bem-vindo ao Multiverso Packs!</h1>
+            <p>Encontre scenepacks dos seus personagens favoritos.</p>
+        </section>
+
+        <section id="conteudo-packs" class="grid-container">
+            <!-- Os cards dos personagens são inseridos pelo JavaScript. -->
+        </section>
+
+        <div id="mensagem-vazio" class="vazio-error" style="display: none;">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h2>Nenhum personagem encontrado</h2>
+            <p>Tente pesquisar por outro nome ou obra.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Multiverso Packs. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
